@@ -1,2 +1,2 @@
-export type { MessageDriver } from "./message/type";
-export { MessageAPIDriver } from "./message";
+export type { UserDriver } from "./user/type";
+export { UserAPIDriver } from "./user";

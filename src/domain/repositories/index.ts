@@ -1,2 +1,2 @@
-export type { Repository } from "./message/type";
-export { MessageRepository } from "./message";
+export type { ReadUserRepository } from "./user/type";
+export { UserRepository } from "./user";

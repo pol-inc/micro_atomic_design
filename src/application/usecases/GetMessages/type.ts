@@ -1,5 +1,4 @@
-import { Result } from "../../../core/Result";
-
 export interface GetMessage {
-  handle(): Promise<Result<any, Error>>;
+  // 型定義は省略してます
+  handle(): Promise<any>;
 }

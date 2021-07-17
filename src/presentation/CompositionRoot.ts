@@ -1,7 +1,7 @@
 import * as U from "../application/usecases";
 import * as R from "../domain/repositories";
 import * as D from "../infrastructure";
-import { ApiService } from "../core/ApiService";
+import { ApiClient } from "../core/ApiClient";
 
 //
 type Dependency = {};
@@ -49,9 +49,9 @@ class CompositionRoot {
 
   // Repository
 
-  private createMessageRepository(): R.Repository {
+  private createMessageRepository(): R.ReadUserRepository {
     // ここキャッシュしたても良い
-    return new R.MessageRepository(new D.MessageAPIDriver(new ApiService()));
+    return new R.UserRepository(new D.UserAPIDriver(new ApiClient()));
   }
 }
 
