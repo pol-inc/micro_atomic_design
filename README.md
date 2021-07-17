@@ -1,4 +1,4 @@
-# Micro Atomic Design
+# Frontend Layerd Architecture +  Micro Atomic Design
 
 Micro Atomic DesignはAtomic Designの考え方を、ページ（必ずしも一画面とは限りません）毎にAtomic Designの構成を紐づけて開発する方法です。
 
@@ -18,5 +18,4 @@ presentation
  │   ├ pages
  │   ├ index.tsx
  │   └ style.tsx
- └ reactor
  ```
